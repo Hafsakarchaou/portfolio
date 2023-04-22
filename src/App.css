@@ -1,38 +1,280 @@
-.App {
+
+
+
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  background-color: #ffffff;
+  height: 30px;
+  font-size: 0.5rem;
+  color: #fff;
+  
+}
+.my-menubar {
+  background-color: #222;
+  color: #fff;
+  height: 40px;
+  font-size: 1.2rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.navbar-icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100px;
+}
+.footer {
   text-align: center;
+  font-size: 0.8rem;
+  padding: 1rem;
+  background-color: #f9f9f9;
+  border-top: 1
+  
+
+}
+#sticky-footer {
+  color: #555;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.myPanel {
+  border: 0px solid #ddd;
+  border-radius: 4px;
+  box-shadow: 0px 1px 1px rgba(183, 34, 34, 0.05);
+  margin: 10px;
+  padding: 10px;
+}
+.cardM{
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  background-color: #f0dafc!important;
+  margin-bottom: 100px;
+}
+.container1{
+  background-color: #f0dafc!important;
+}
+.pic{
+  height: 500px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.titl1{
+  font-family: 'Lato', sans-serif;
+  font-size: 49px;
+  color: #3d3d3d;
+}
+
+.titl2{
+  font-family: 'Lato', sans-serif;
+  font-size: 29px;
+  color: #3d3d3d;
+}
+
+.titl3{
+  font-family: 'Lato', sans-serif;
+  font-size: 15px;
+  color: #3d3d3d;
+}
+ .details{
+  font-family: 'Lora', serif;
+  font-size: 13px;
+  color: #3d3d3d;
+ }
+
+.intro{
+  font-family: 'Lora', serif;
+  font-size: 18px;
+  color: #3d3d3d;
+}
+.btn1{
+  margin-top: 30px !important;
+  width: auto !important;
+  background-color: #7d2ca8 !important;
+  border-color: #7d2ca8 !important;
+ 
+}
+
+.btnt{
+  margin-top: 30px !important;
+  width: auto !important;
+  background-color: #7d2ca8 !important;
+  border-color: #7d2ca8 !important;
+ 
+}
+
+.picDiv{
+  height: 500px;
+  margin-top: 70px;
+  margin-bottom: 70px!important;
+  padding-bottom: 70px;
+}
+
+.infoDiv{
+  margin-left: 160px;
+  margin-top: 200px;
+  margin-bottom: 70px!important;
+}
+@media screen and (max-width: 768px) {
+  .infoDiv {
+    margin-left: 50px;
+  }
+  .picDiv{
+    margin-left: -14px;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.infoDiv2{
+  
+  margin-top: 150px;
+  margin-bottom: 70px!important;
+}
+.about{
+  margin-top: 40px;
+
+}
+.btns{
+  
+  min-width: 120px !important;
+  margin-top: 30px !important;
+  background-color: #7d2ca8 !important;
+  border-color: #7d2ca8 !important;
+  
+}
+
+.projectsCnt{
+  margin-top: 60px !important;
+}
+
+.rows{
+  margin-top: 30px !important;
+}
+
+.round-button {
+  border-radius: 100%!important;
+  width: 50px;
+  height: 50px;
+  font-size: 1rem;
+  font-weight: 700;
+}
+.round-button1 {
+  border-radius: 100%!important;
+  width: 37px;
+  height: 37px;
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+
+ic1{
+  fill: rgb(151, 25, 25) !important;
+  width: 10px;
+  height: 10px;
+  color: aquamarine;
+}
+.card5{
+  height: 260px;
+}
+
+.card6 {
+  border-left: none !important;
+  border-top: none !important;
+  border-bottom: none !important;
+  border-right: blueviolet 2px solid !important;
+  border-radius: 0px !important;
+  box-shadow: none !important;
+
+}
+
+
+.card7 {
+  border-left: none !important;
+  border-top: none !important;
+  border-bottom: none !important;
+  border-right: none !important;
+  border-radius: 0px !important;
+  box-shadow: none !important;
+
+}
+.card8 {
+  border-left: blueviolet 2px solid !important;
+  border-top: none !important;
+  border-bottom: none !important;
+  border-right: none !important;
+  border-radius: 0px !important;
+  box-shadow: none !important;
+}
+.mobile-icon {
+  width: 24px;
+  height: 24px;
+  
+}
+
+.divIco{
+  width: 24px !important;
+  height: 24px !important;
+  margin-bottom: 50px !important;
+  display: flex!important;
+  justify-content: center!important;
+  align-items: center!important;
+  margin-left: 40%;
+  
+}
+
+.infos1{
+  margin-left: 26%;
+  font-family: 'Lora', serif;
+  font-size: 13px;
+  color: #3d3d3d;
+}
+
+.infos2{
+  margin-left: 14%;
+  font-family: 'Lora', serif;
+  font-size: 13px;
+  color: #3d3d3d;
+}
+
+.infos3{
+  margin-left: 27%;
+  font-family: 'Lora', serif;
+  font-size: 13px;
+  color: #3d3d3d;
+}
+.techs{
+  font-family: 'Lora', serif;
+  font-size: 13px;
+  color: #3d3d3d;
+}
+.prTitle{
+  font-family: 'Lato', sans-serif;
+  font-size: 19px;
+  color: #3d3d3d;
+}
+
+.carousel{
+  margin-top: 100px;
+}
+.carouselCard{
+  height: 260px;
+  margin-left: 20px;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  justify-content: space-between;
+}
+.btn7{
+  margin-top: 50px !important;
+  width: auto !important;
+  background-color: #7d2ca8 !important;
+  border-color: #7d2ca8 !important;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.btndiv{
+  margin-top: 60px !important;
+  display: flex;
+  justify-content: center;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.titleDiv{
+  height: 50px !important;
 }
