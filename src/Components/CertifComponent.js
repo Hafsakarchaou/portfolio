@@ -76,18 +76,26 @@ const CertifComponent = () => {
     return (
         <Card className='cardM'>
             <div className="container">
-                <Carousel className='carousel' value={items} itemTemplate={itemTemplate} numVisible={3} numScroll={1} responsiveOptions={[
-                    {
-                        breakpoint: '1024px',
-                        numVisible: 2,
-                        numScroll: 1
-                    },
-                    {
-                        breakpoint: '768px',
-                        numVisible: 1,
-                        numScroll: 1
-                    }
-                ]} />
+                <Carousel className='carousel' value={items} itemTemplate={itemTemplate} numVisible={3} numScroll={1} 
+
+
+responsiveOptions={[
+  {
+    breakpoint: '1024px',
+    numVisible: 2,
+    numScroll: 1
+  },
+  {
+    breakpoint: '768px',
+    numVisible: 1,
+    numScroll: 1
+  },
+  {
+    breakpoint: '560px',
+    numVisible: 1,
+    numScroll: 1
+  }
+]} />
             </div>
         </Card>
     );

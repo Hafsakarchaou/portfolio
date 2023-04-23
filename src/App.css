@@ -121,6 +121,10 @@
   .picDiv{
     margin-left: -14px;
   }
+  .carouselCard{
+    height: auto;
+    width: auto;
+  }
 }
 
 .infoDiv2{
