@@ -61,7 +61,7 @@ const CertifComponent = () => {
 
                 <div > {/* align button to the right */}
                     <div className='titleDiv'>
-                        <h3>{item.header}</h3>
+                        <h3 className='certifTitle'>{item.header}</h3>
                     </div>
                     <div className="btndiv">
                         <a href={item.link} target="_blank" rel="noopener noreferrer">
@@ -74,7 +74,7 @@ const CertifComponent = () => {
     };
 
     return (
-        <Card className='cardM'>
+        <Card className='cardC'>
             <div className="container">
                 <Carousel className='carousel' value={items} itemTemplate={itemTemplate} numVisible={3} numScroll={1} 
 

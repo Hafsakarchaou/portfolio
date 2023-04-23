@@ -44,9 +44,9 @@
   margin: 10px;
   padding: 10px;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 568px) {
   .infoDiv {
-    margin-left: 50px;
+    margin-left: 10px !important;
   }
   .picDiv{
     margin-left: -14px;
@@ -55,12 +55,17 @@
     height: auto;
     width: auto;
   }
-  .cardM{
-    margin-right: 300px !important;
-    
-  }
+
 }
 .cardM{
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  background-color: #f0dafc!important;
+  margin-bottom: 100px;
+  min-width: 370px;
+}
+.cardC{
   width: 100%;
   margin: auto;
   max-width: 1100px; /* adjust the value as needed */
@@ -110,6 +115,12 @@
   border-color: #7d2ca8 !important;
  
 }
+.btn1:hover {
+  margin-top: 31px !important;
+  background-color: #f0eeee !important;
+  border-color: #7d2ca8 !important;
+  color: #7d2ca8 !important;
+}
 
 .btnt{
   margin-top: 30px !important;
@@ -117,6 +128,12 @@
   background-color: #7d2ca8 !important;
   border-color: #7d2ca8 !important;
  
+}
+.btnt:hover {
+  margin-top: 31px !important;
+  background-color: #f0eeee !important;
+  border-color: #7d2ca8 !important;
+  color: #7d2ca8 !important;
 }
 
 .picDiv{
@@ -149,6 +166,12 @@
   background-color: #7d2ca8 !important;
   border-color: #7d2ca8 !important;
   
+}
+.btns:hover {
+  margin-top: 31px !important;
+  background-color: #f0eeee !important;
+  border-color: #7d2ca8 !important;
+  color: #7d2ca8 !important;
 }
 
 .projectsCnt{
@@ -184,6 +207,7 @@ ic1{
 }
 .card5{
   height: 260px;
+  background-color: #f8f3ed !important;
 }
 
 .card6 {
@@ -193,6 +217,8 @@ ic1{
   border-right: blueviolet 2px solid !important;
   border-radius: 0px !important;
   box-shadow: none !important;
+  background-color: #f8f3ed !important;
+  height: 160px;
 
 }
 
@@ -204,6 +230,8 @@ ic1{
   border-right: none !important;
   border-radius: 0px !important;
   box-shadow: none !important;
+  background-color: #f8f3ed !important;
+  height: 160px;
 
 }
 .card8 {
@@ -213,6 +241,8 @@ ic1{
   border-right: none !important;
   border-radius: 0px !important;
   box-shadow: none !important;
+  background-color: #f8f3ed !important;
+  height: 160px;
 }
 .mobile-icon {
   width: 24px;
@@ -255,6 +285,7 @@ ic1{
   font-family: 'Lora', serif;
   font-size: 13px;
   color: #3d3d3d;
+  
 }
 .prTitle{
   font-family: 'Lato', sans-serif;
@@ -271,6 +302,11 @@ ic1{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  background-color: #f8f3ed !important;
+}
+
+.cardA{
+  background-color: #f8f3ed !important;
 }
 .btn7{
   margin-top: 50px !important;
@@ -279,6 +315,14 @@ ic1{
   border-color: #7d2ca8 !important;
   display: flex;
   justify-content: center;
+  border-radius: 7px !important;
+}
+
+.btn7:hover {
+  margin-top: 50px !important;
+  background-color: #f8f3ed !important;
+  border-color: #7d2ca8 !important;
+  color: #7d2ca8 !important;
 }
 .btndiv{
   margin-top: 60px !important;
@@ -287,4 +331,9 @@ ic1{
 }
 .titleDiv{
   height: 50px !important;
+}
+.certifTitle{
+  font-family: 'Lato', sans-serif;
+  font-size: 19px;
+  color: #5e5e5e;
 }
