@@ -57,12 +57,12 @@
   }
 
 }
-.cardM{
-  margin-top: 50px;
-  margin-left: 50px;
-  margin-right: 50px;
+.cardM{ width: 100%;
+  margin: auto;
+  max-width: 1100px; /* adjust the value as needed */
+  padding: 1rem;
   background-color: #f0dafc!important;
-  margin-bottom: 100px;
+  
   min-width: 370px;
 }
 .cardC{
